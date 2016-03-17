@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="logo-mirrexagon-black.svg"
-   inkscape:export-filename="/home/andrew/sync/work/visual/logos/mirrexagon/mirrexagon_logo.png"
+   inkscape:export-filename="/home/andrew/sync/work/website/mirrexagon.com/assets/images/logo-mirrexagon-black.png"
    inkscape:export-xdpi="450"
    inkscape:export-ydpi="450">
   <defs
@@ -39,7 +39,7 @@
      inkscape:window-height="1644"
      inkscape:window-x="0"
      inkscape:window-y="48"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -61,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
