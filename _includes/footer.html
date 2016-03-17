@@ -2,16 +2,16 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <!--- <h2 class="footer-heading"></h2> -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <!-- TODO: Add icons (like GitHub) for website and email -->
 
-          {% if site.title %}
+          {% if site.url %}
           <li>
-            {% include icons/icon-web.html url=site.title %}
+            {% include icons/icon-web.html url=site.url title=site.title %}
           </li>
           {% endif %}
 
@@ -44,7 +44,7 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+
       </div>
     </div>
 

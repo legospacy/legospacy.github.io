@@ -11,7 +11,7 @@
    id="svg4255"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="icon-email.svg">
+   sodipodi:docname="icon-web.svg">
   <metadata
      id="metadata4263">
     <rdf:RDF>
@@ -42,30 +42,15 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="60.192465"
-     inkscape:cx="8.0627784"
+     inkscape:cx="9.1537141"
      inkscape:cy="8.8183378"
      inkscape:window-x="0"
      inkscape:window-y="48"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4255">
-    <sodipodi:guide
-       position="16.779509,12"
-       orientation="0,1"
-       id="guide4271" />
     <inkscape:grid
        type="xygrid"
-       id="grid4273" />
-    <sodipodi:guide
-       position="4,4"
-       orientation="0,1"
-       id="guide4275" />
-    <sodipodi:guide
-       position="1,14"
-       orientation="1,0"
-       id="guide4277" />
-    <sodipodi:guide
-       position="15,12.609552"
-       orientation="1,0"
-       id="guide4279" />
+       id="grid4273"
+       empspacing="4" />
   </sodipodi:namedview>
 </svg>
