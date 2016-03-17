@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi! I'm Andrew, also known as Mirrexagon. I'm a Software Engineering student hailing from Australia.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I love programming, and my favourite language is Lua.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I also sometimes write music, and I have been occasionally known to write fiction and do vector and 3D art.
+
+This is my personal website. Currently it only serves as a repository for my music, but I'll probably expand it in the future.
+
+Logo made with [Inkscape](https://inkscape.org/). It's literally just "Mirrexagon" in the [Altera 6](http://www.dafont.com/altera2.font) font with the "o" replaced with a hexagon.
