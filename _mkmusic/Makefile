@@ -59,9 +59,11 @@ metadata-file: $(METADATA_FILE)
 # ---
 
 deploy-music: $(SOURCES) $(FLACS) $(OGGS)
+	mkdir -p $(DEPLOY_MUSIC_DIR)
 	rsync -av $(foreach file,$(SOURCES) $(FLACS) $(OGGS),"$(file)") $(DEPLOY_MUSIC_DIR)
 
 deploy-metadata-file: $(METADATA_FILE)
+	mkdir -p $(DEPLOY_METADATA_DIR)
 	cp $(METADATA_FILE) $(DEPLOY_METADATA_DIR)
 
 # --- <> --- #
