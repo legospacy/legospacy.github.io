@@ -14,7 +14,7 @@ Project and audio files are currently "hosted" on Dropbox. I'm sure there's a be
 {% for song in site.data.music %}
 ---
 
-**{{ song.tags.Title }}** <br />
+**{{ song.tags.Artist }} - {{ song.tags.Title }}** <br />
 *Finished: {{ song.tags.Date | default: "before early 2015" }}*
 
 {{ song.comment }}
