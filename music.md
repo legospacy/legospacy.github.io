@@ -11,9 +11,9 @@ Project and audio files are currently "hosted" on Dropbox. I'm sure there's a be
 
 <br />
 
+{% for song in site.data.music %}
 ---
 
-{% for song in site.data.music %}
 **{{ song.tags.Title }}** <br />
 *Finished: {{ song.tags.Date | default: "before early 2015" }}*
 
@@ -24,6 +24,4 @@ Project and audio files are currently "hosted" on Dropbox. I'm sure there's a be
 [Project file]({{ page.dl_url }}/{{ song.filename }}) <br />
 [FLAC]({{ page.dl_url }}/{{ song.filename }}.flac) <br />
 [Ogg Vorbis]({{ page.dl_url }}/{{ song.filename }}.ogg) <br />*
-
----
 {% endfor %}
