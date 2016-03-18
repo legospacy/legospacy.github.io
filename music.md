@@ -7,6 +7,8 @@ dl_url: https://dl.dropboxusercontent.com/u/27899289/music
 
 This is a list of music I've made. My music program of choice is currently [SunVox](http://warmplace.ru/soft/sunvox/), although I used to use [OpenMPT](https://openmpt.org/) (and occasionally still do).
 
+Project and audio files are currently "hosted" on Dropbox. I'm sure there's a better way, this was just the easiest thing to do (plus it's free!).
+
 I use the word 'song' in some of these descriptions to mean 'piece of music', not necessarily 'piece of music with vocals'.
 
 <br />
