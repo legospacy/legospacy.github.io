@@ -17,7 +17,7 @@ Project and audio files are currently "hosted" on Dropbox. I'm sure there's a be
 **{{ song.tags.Artist }} - {{ song.tags.Title }}** <br />
 *Finished: {{ song.tags.Date | default: "before early 2015" }}*
 
-{{ song.comment }}
+{{ song.comment | newline_to_br }}
 
 
 *Made with {{ song.program }} <br />
