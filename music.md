@@ -9,7 +9,11 @@ This is a list of music I've made. My music program of choice is currently [SunV
 
 Project and audio files are currently "hosted" on Dropbox. I'm sure there's a better way, this was just the easiest thing to do (plus it's free!).
 
-All the music on this page, unless stated otherwise, is released into the public domain via [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/). That means you're allowed do pretty much anything you want with it *without* needing to credit me or get my permission. You can share it, learn from it, remix it, use it in a game, and even steal it and pretend that you made it (I can't stop you, but I'd rather you didn't do that; it's not very nice).
+---
+
+All the music on this page, unless stated otherwise, is released into the public domain via [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/). That means you're allowed do pretty much anything you want with it *without* needing to get my permission or credit me (I'd appreciate being credited though!).
+
+You can share it, learn from it, remix it, use it in a game/movie/video/etc., and *technically* even steal it and pretend that you made it. I can't stop you, but please don't do that; it's not very nice.
 
 <br />
 
