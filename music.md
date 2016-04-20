@@ -11,9 +11,7 @@ Project and audio files are currently "hosted" on Dropbox. I'm sure there's a be
 
 ---
 
-All the music on this page, unless stated otherwise, is released into the public domain via [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/). That means you're allowed do pretty much anything you want with it *without* needing to get my permission or credit me (I'd appreciate being credited though!).
-
-You can share it, learn from it, remix it, use it in a game/movie/video/etc., and *technically* even steal it and pretend that you made it. I can't stop you, but please don't do that; it's not very nice.
+All the music on this page, unless stated otherwise, is released into the public domain via [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/). That means you're allowed do pretty much anything you want with it *without* needing to get my permission or credit me. Credit is nice, but not required.
 
 <br />
 
