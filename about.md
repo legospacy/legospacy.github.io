@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi! I'm Andrew, also known as Mirrexagon. I'm a Software Engineering student hailing from Australia.
 
-I love programming, and my favourite language is Lua. Check out [my GitHub](https://github.com/{{ site.github_username }})!
+I love programming, and my favourite languages are [Lua](https://www.lua.org/) and [Rust](https://www.rust-lang.org/). Check out [my GitHub](https://github.com/{{ site.github_username }})!
 
 I also sometimes make music, usually in the style of demoscene music. Take a look at the [music section]({{ site.baseurl }}/music/)!
 
