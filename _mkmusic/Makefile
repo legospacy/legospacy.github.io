@@ -36,7 +36,7 @@ METADATA_FILE = $(WORK_DIR)/music.yaml
 
 
 # --- Targets --- #
-.PHONY: all sources flacs oggs metadata-file deploy-music deploy-metadata-file clean
+.PHONY: all sources flacs oggs metadata-file deploy deploy-music deploy-metadata-file clean
 
 # ---
 
@@ -44,7 +44,7 @@ all: help
 
 
 help:
-	@echo What do you want to do?
+	@echo "What do you want to do?"
 
 # ---
 
@@ -57,6 +57,8 @@ oggs: $(OGGS)
 metadata-file: $(METADATA_FILE)
 
 # ---
+
+deploy: deploy-music deploy-metadata-file
 
 deploy-music: $(SOURCES) $(FLACS) $(OGGS)
 	mkdir -p $(DEPLOY_MUSIC_DIR)
