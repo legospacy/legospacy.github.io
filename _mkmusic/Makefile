@@ -3,9 +3,8 @@ MUSIC_SRC_DIR =  $(HOME)/sync/work/music/music
 OPENMPT_SRC_DIR = $(realpath $(MUSIC_SRC_DIR)/openmpt/publish)
 SUNVOX_SRC_DIR = $(realpath $(MUSIC_SRC_DIR)/sunvox/publish)
 
-WORK_DIR ?= /tmp/music-publish
+WORK_DIR ?= $(HOME)/Dropbox/Public/music
 
-DEPLOY_MUSIC_DIR ?= $(HOME)/Dropbox/Public/music
 DEPLOY_METADATA_DIR ?= ../_data
 
 # ---
@@ -40,11 +39,7 @@ METADATA_FILE = $(WORK_DIR)/music.yaml
 
 # ---
 
-all: help
-
-
-help:
-	@echo "What do you want to do?"
+all: deploy
 
 # ---
 
@@ -61,11 +56,9 @@ metadata-file: $(METADATA_FILE)
 deploy: deploy-music deploy-metadata-file
 
 deploy-music: $(SOURCES) $(FLACS) $(OGGS)
-	mkdir -p $(DEPLOY_MUSIC_DIR)
-	rsync -av $(foreach file,$(SOURCES) $(FLACS) $(OGGS),"$(file)") $(DEPLOY_MUSIC_DIR)
+	@#rsync -av $(foreach file,$(SOURCES) $(FLACS) $(OGGS),"$(file)") $(DEPLOY_MUSIC_DIR)
 
 deploy-metadata-file: $(METADATA_FILE)
-	mkdir -p $(DEPLOY_METADATA_DIR)
 	cp $(METADATA_FILE) $(DEPLOY_METADATA_DIR)
 
 # --- <> --- #
