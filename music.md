@@ -19,7 +19,7 @@ That being said, enjoy!
 {% for song in site.data.music %}
 ---
 
-**{{ song.tags.Artist }} - {{ song.tags.Title }}** <br />
+### <a name="{{ song.filename }}" href="#{{ song.filename }}">{{ song.tags.Artist }} - {{ song.tags.Title }}</a>
 *Finished: {{ song.tags.Date | default: "before early 2015" }}*
 
 {{ song.comment | newline_to_br }}
