@@ -16,10 +16,13 @@ All the music on this page, unless stated otherwise, is released into the public
 ---
 
 #### **<a name="{{ song.filename }}" href="#{{ song.filename }}">{{ song.tags.Artist }} - {{ song.tags.Title }}</a>**
+<audio controls preload="none">
+	<source src="{{ page.dl_url }}/{{ song.filename }}.ogg" type="audio/ogg">
+</audio>
+
 *Finished: {{ song.tags.Date | default: "before early 2015" }}*
 
 {{ song.comment | newline_to_br }}
-
 
 *Made with {{ song.program }} <br />
 [Project file]({{ page.dl_url }}/{{ song.filename }}) <br />
