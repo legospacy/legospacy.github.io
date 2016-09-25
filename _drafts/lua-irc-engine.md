@@ -3,7 +3,7 @@ layout: post
 title: "Lua IRC Engine"
 ---
 
-I maintain a Lua module named Lua IRC Engine, also known as `irc-engine`, or IRCe for short. I describe it as "A Lua IRC module that tries to be minimal and extensible." ([GitHub repo](https://github.com/mirrexagon/lua-irc-engine), [Luarocks](https://luarocks.org/modules/legospacy/irc-engine))
+I used to maintain a Lua module named Lua IRC Engine, also known as `irc-engine`, or IRCe for short. I describe it as "A Lua IRC module that tries to be minimal and extensible." ([GitHub repo](https://github.com/mirrexagon/lua-irc-engine), [Luarocks](https://luarocks.org/modules/legospacy/irc-engine))
 
 It's my first ever versioned piece of software, and the first that is actually used by more than three people. In this post, I'll go over its history, some of the things I did badly, and things I've learnt from it.
 
@@ -36,7 +36,7 @@ The problem is this: when do you call the callback, and when don't you? Should y
 
 `TODO: Examples?`
 
-The main thing I learnt from this is that there's a major version zero (`0.x.y`) for a reason - to get everything how you want it.
+The main thing I learnt from this is that there's a major version zero (`0.x.y`) for a reason - to get everything how you want it, including all the subtle details about how your API works.
 
 ---
 
@@ -44,7 +44,7 @@ The main thing I learnt from this is that there's a major version zero (`0.x.y`)
 
 
 # Conclusion
-The final issue is that I don't actually use IRC Engine myself right now, and I haven't for most of its existence. I don't maintain any bots anymore, and I've kinda lost interest (for now, at least).
+The final issue is that I don't actually use IRC Engine myself right now, and I haven't for most of its existence. I don't maintain any bots anymore, and I've kinda lost interest.
 
 I wish I could start again with what I've learned, especially making good use of major version zero to really make sure I'm happy with everything (and not break SemVer, as I've done a few times).
 
