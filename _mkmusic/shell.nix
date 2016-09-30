@@ -1,23 +1,19 @@
-with import <nixpkgs> {}; {
-  musicPublishEnv = stdenv.mkDerivation {
-    name = "musicPublish";
+with import <nixpkgs> {}; stdenv.mkDerivation {
+  name = "musicPublish";
 
-    buildinputs = [
-      stdenv
+  buildinputs = [
+    stdenv
 
-      lua
+    lua
 
-      svrender
-      libopenmpt
+    svrender
+    libopenmpt
 
-      flac
-      ffmpeg
+    flac
+    ffmpeg
 
-      kid3
+    kid3
 
-      rsync
-    ];
-
-    shellHook = "source $stdenv/setup";
-  };
+    rsync
+  ];
 }
