@@ -11,11 +11,11 @@ It's my first ever versioned piece of software, and the first that is actually u
 # History
 Years ago, when I was still new to programming, I wanted to try writing an IRC bot from scratch in Lua, the language I was most comfortable in. And so, I did just that.
 
-It was honestly pretty bad - my code style was extremely messy and stuff was hardcoded all over the place. But it worked, and I learned a lot from doing it; about programming, Lua, and IRC.
+It was honestly pretty bad - my code style was extremely messy and stuff was hardcoded all over the place. But it worked, and I learned a lot from doing it - about programming, Lua, and IRC.
 
 I rewrote that one IRC bot at least three times, improving its code and architecture each time. Eventually I got to the point where I could easily split out the IRC code from the bot. So that's what I did.
 
-After all this iterating, rewriting and learning, I eventually created Lua IRC Engine. From all that experience, I wrote its README first, which ended up detailing how the entire API was going to work, before I even wrote a single line of code. For the most part, the module has stuck to the original design.
+After all this iterating, rewriting and learning, I eventually created Lua IRC Engine. From all that experience, I wrote its README first; it ended up detailing how the entire API was going to work, before I even wrote a single line of code. For the most part, the module has stuck to the original design.
 
 I was pretty proud of it. It's minimal, flexible and very extensible, making it easy to add support for new IRC protocol commands.
 
@@ -51,6 +51,8 @@ The behaviour I eventually went with is specified in the README:
 >
 >This behaviour allows for handlers which sometimes pass processing on to another handler; eg. when a CTCP ACTION is received, the CTCP handler passes processing over to ACTION. This way, the ACTION callback is called instead of the CTCP callback. If the callback were always called (as they were in versions 2.1.0 to 5.0.0), the CTCP handler would be called regardless. NOTICE and PRIVMSG also work this way, passing over to CTCP when they detect a CTCP message.
 
+And it only took until `v5.0.0` to decide on it!
+
 The main thing I learnt from this is that there's a major version zero (`0.x.y`) for a reason - to get everything how you want it, including all the subtle details about how your API works. Even though I thought I had planned the module well, little details still came up once I actually implemented it, and I didn't handle those very well.
 
 
@@ -59,4 +61,4 @@ The big issue now is that I don't actually use IRC Engine myself right now, and 
 
 I kind of wish I could start again with what I've learned, especially making good use of major version zero to really make sure I'm happy with everything (and not break SemVer, as I've done a few times).
 
-I'm leaving the module out there for anyone who wants to pick it up. I've released it into the public domain via CC0 (hopefully I can do that and not break any laws). See the [README](https://github.com/mirrexagon/lua-irc-engine/blob/master/README.md) for information.
+I'm leaving the module out there for anyone who wants to pick it up. I've released it into the public domain via CC0 (hopefully I can do that). See the [README](https://github.com/mirrexagon/lua-irc-engine/blob/master/README.md) for information.
