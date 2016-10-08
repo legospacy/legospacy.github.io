@@ -7,8 +7,6 @@ I used to maintain a Lua module named Lua IRC Engine, also known as `irc-engine`
 
 It's my first ever versioned piece of software, and the first that is actually used by more than three people. In this post, I'll go over its history, some of the things I did badly, and things I've learnt from it.
 
-I'll refer to it as IRCe from now on.
-
 
 # History
 Years ago, when I was still new to programming, I wanted to try writing an IRC bot from scratch in Lua, the language I was most comfortable in. And so, I did just that.
