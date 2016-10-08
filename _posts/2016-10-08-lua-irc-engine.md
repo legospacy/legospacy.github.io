@@ -5,7 +5,7 @@ title: "Lua IRC Engine"
 
 I used to maintain a Lua module named Lua IRC Engine, also known as `irc-engine`, or IRCe for short. I describe it as "A Lua IRC module that tries to be minimal and extensible." ([GitHub repo](https://github.com/mirrexagon/lua-irc-engine), [LuaRocks](https://luarocks.org/modules/mirrexagon/irc-engine))
 
-It's my first ever versioned piece of software, and the first that is actually used by more than three people. In this post, I'll go over its history, some of the things I did badly, and things I've learnt from it.
+It's my first ever versioned piece of software, and the first that is actually used by more than three people. In this post, I'll talk about its history, some of the things I did badly, and things I've learnt from it (mainly about versioning).
 
 
 # History
