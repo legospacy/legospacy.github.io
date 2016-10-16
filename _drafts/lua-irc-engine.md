@@ -61,4 +61,4 @@ The big issue now is that I don't actually use IRC Engine myself right now, and 
 
 I kind of wish I could start again with what I've learned, especially making good use of major version zero to really make sure I'm happy with everything (and not break SemVer, as I've done a few times).
 
-I'm leaving the module out there for anyone who wants to pick it up. I've released it into the public domain via CC0 (hopefully I can do that). See the [README](https://github.com/mirrexagon/lua-irc-engine/blob/master/README.md) for information.
+I might come back to this someday, but for now, I don't work on it. If you want to play with it and/or maybe work on it and release your own version, feel free!
