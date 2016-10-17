@@ -57,7 +57,7 @@ The main thing I learnt from this is that there's a major version zero (`0.x.y`)
 
 
 # Conclusion
-The big issue now is that I don't actually use IRC Engine myself right now, and I haven't for most of its existence. (Plus, I recently started learning and playing around with [Rust](https://www.rust-lang.org), and I have to say, it's pretty awesome! I kinda want to write an IRC bot in Rust instead, probably with Lua extensibility.)
+The big issue now is that I don't actually use IRC Engine myself right now, and I haven't for most of its existence. (Plus, I recently started learning and playing around with [Rust](https://www.rust-lang.org), and I have to say, it's pretty awesome! I kinda want to write an IRC bot in Rust instead.)
 
 I kind of wish I could start again with what I've learned, especially making good use of major version zero to really make sure I'm happy with everything (and not break SemVer, as I've done a few times).
 
