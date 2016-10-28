@@ -1,91 +1,102 @@
 ---
 - tags:
-    Date: 2016-09-30
-    Title: Into the Sky
+    Date: 2016-10-28
     Artist: Mirrexagon
-  program: SunVox
+    Title: Bring It On
   ext: sunvox
+  program: SunVox
+  comment: 'A fast-paced electronic piece. I want to use this for battle music!
+
+
+    It''s meant to be looped, but this version has an ending for listening purposes.'
+  filename: mirrexagon_-_bring_it_on.sunvox
+- tags:
+    Date: 2016-09-30
+    Artist: Mirrexagon
+    Title: Into the Sky
+  ext: sunvox
+  program: SunVox
   comment: A happy chiptune. Spread your wings and fly into the sky!
   filename: mirrexagon_-_into_the_sky.sunvox
 - tags:
-    Title: Love You
     Date: 2016-07-17
     Artist: Mirrexagon
-  program: SunVox
+    Title: Love You
   ext: sunvox
+  program: SunVox
   comment: I felt like playing with a piano instrument for this one. It's a bit short,
     maybe too short, but I still think it works. The hardest part was getting all
     the volumes balanced (I'm still not convinced that they are, but oh well).
   filename: mirrexagon_-_love_you.sunvox
 - tags:
     Date: 2016-06-22
-    Title: Destiny Inspired
-    Artist: Mirrexagon
-  program: OpenMPT
-  ext: it
-  comment: You can never have too many remixes of one song!
-  filename: mirrexagon_-_destiny_inspired.it
-- tags:
-    Date: 2016-06-22
-    Title: Terra (Mirrexagon Cover)
     Artist: Nobuo Uematsu
-  program: SunVox
+    Title: Terra (Mirrexagon Cover)
   ext: sunvox
+  program: SunVox
   comment: 'My take on an iconic theme from Final Fantasy VI.
 
 '
   filename: nobuo_uematsu_-_terra_(mirrexagon_cover).sunvox
 - tags:
-    Date: 2016-01-28
-    Title: Swagger
+    Date: 2016-06-22
     Artist: Mirrexagon
-  program: SunVox
+    Title: Destiny Inspired
+  ext: it
+  program: OpenMPT
+  comment: You can never have too many remixes of one song!
+  filename: mirrexagon_-_destiny_inspired.it
+- tags:
+    Date: 2016-01-28
+    Artist: Mirrexagon
+    Title: Swagger
   ext: sunvox
+  program: SunVox
   comment: It took me a while to come up with a name for this, but I think "Swagger"
     describes it perfectly. I accidentally made the ending somewhat unsatisfying,
     so be prepared to want to listen to this over and over forever.
   filename: mirrexagon_-_swagger.sunvox
 - tags:
     Date: 2016-01-08
-    Title: Little Battle Chip
     Artist: Mirrexagon
-  program: SunVox
+    Title: Little Battle Chip
   ext: sunvox
+  program: SunVox
   comment: A random chiptune appeared!
   filename: mirrexagon_-_little_battle_chip.sunvox
 - tags:
-    Title: Tristesse (Mirrexagon Wobble Cover)
     Date: 2015-12-03
     Artist: DRAX
-  program: SunVox
+    Title: Tristesse (Mirrexagon Wobble Cover)
   ext: sunvox
+  program: SunVox
   comment: I was trying to make a wobble bass in SunVox. I also was trying to transcribe
     this song. I combined the two!
   filename: drax_-_tristesse_(mirrexagon_wobble_cover).sunvox
 - tags:
     Date: 2015-12-01
-    Title: Dream March
     Artist: Mirrexagon
-  program: SunVox
+    Title: Dream March
   ext: sunvox
+  program: SunVox
   comment: This sat in my WIP folder for ages because I thought it was too short,
     but nothing I added sounded good. I think it's actually pretty great as is.
   filename: mirrexagon_-_dream_march.sunvox
 - tags:
     Date: 2015-11-29
-    Title: City Night
     Artist: Mirrexagon
-  program: SunVox
+    Title: City Night
   ext: sunvox
+  program: SunVox
   comment: This one was sitting around in my WIP folder for ages, until I eventually
     decided to just call it finished.
   filename: mirrexagon_-_city_night.sunvox
 - tags:
     Date: 2015-11-06
-    Title: Demo One
     Artist: Mirrexagon
-  program: SunVox
+    Title: Demo One
   ext: sunvox
+  program: SunVox
   comment: 'Now this, this is a big one.
 
 
@@ -105,77 +116,77 @@
   filename: mirrexagon_-_demo_one.sunvox
 - tags:
     Date: 2015-03-21
-    Title: Don't Cry
     Artist: Mirrexagon
-  program: SunVox
+    Title: Don't Cry
   ext: sunvox
+  program: SunVox
   comment: I was originally hesitant to publish this, thinking it too short and not
     very high quality, but in the end I think it's alright.
   filename: mirrexagon_-_dont_cry.sunvox
 - tags:
     Date: 2015-02-12
-    Title: Sundance
     Artist: Mirrexagon
-  program: SunVox
+    Title: Sundance
   ext: sunvox
+  program: SunVox
   comment: I played around with a few new things with this one, namely tempo and style
     changes. I'm pretty happy how it turned out.
   filename: mirrexagon_-_sundance.sunvox
 - tags:
     Date: 2015-02-06
-    Title: Power On
     Artist: Mirrexagon
-  program: SunVox
+    Title: Power On
   ext: sunvox
+  program: SunVox
   comment: I'm not entirely sure what to call this. Fast-paced techno thing? I didn't
     pay much attention when I was making this, or at least I barely remember doing
     it.
   filename: mirrexagon_-_power_on.sunvox
 - tags:
-    Title: Trudge
     Date: 2015-02-04
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Trudge
   ext: it
+  program: OpenMPT
   comment: A chiptune, through and through. I returned to OpenMPT briefly to make
     this after having switched to SunVox a while back.
   filename: mirrexagon_-_trudge.it
 - tags:
     Title: Basement
     Artist: Mirrexagon
-  program: SunVox
   ext: sunvox
+  program: SunVox
   comment: One of my first SunVox songs. It's more an ambient loop than a song.
   filename: mirrexagon_-_basement.sunvox
 - tags:
     Title: Candy Stall
     Artist: Mirrexagon
-  program: SunVox
   ext: sunvox
+  program: SunVox
   comment: I don't usually write upbeat happy songs (for whatever reason), but this
     is one!
   filename: mirrexagon_-_candy_stall.sunvox
 - tags:
     Title: Castle
     Artist: Mirrexagon
-  program: SunVox
   ext: sunvox
+  program: SunVox
   comment: I think this one sounds a bit medieval, hence the name.
   filename: mirrexagon_-_castle.sunvox
 - tags:
-    Title: Chip Thing
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Chip Thing
   ext: it
+  program: OpenMPT
   comment: My first foray into using only simple waveforms in a song (ie. chiptune).
     I was trying to make a dubstep-like wobble bass, but it didn't work out and so
     I made this instead.
   filename: mirrexagon_-_chipthing.it
 - tags:
-    Title: Chrono Trigger Battle 1 (Mirrexagon Cover)
     Artist: Yasunori Mitsuda
-  program: SunVox
+    Title: Chrono Trigger Battle 1 (Mirrexagon Cover)
   ext: sunvox
+  program: SunVox
   comment: 'Electronic cover of the Chrono Trigger battle music.
 
 
@@ -185,10 +196,10 @@
 '
   filename: yasunori_mitsuda_-_chrono_trigger_battle_1_(mirrexagon_cover).sunvox
 - tags:
-    Title: Destiny
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Destiny
   ext: it
+  program: OpenMPT
   comment: '"You can''t escape your destiny."
 
 
@@ -198,18 +209,18 @@
 '
   filename: mirrexagon_-_destiny.it
 - tags:
-    Title: Destiny Redux
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Destiny Redux
   ext: it
+  program: OpenMPT
   comment: A remix of my own song "Destiny"! This version is more fast-paced, and
     still retains a lot of the original.
   filename: mirrexagon_-_destiny_redux.it
 - tags:
-    Title: Double Rainboom (Mirrexagon Calm Cover)
     Artist: David Larson
-  program: OpenMPT
+    Title: Double Rainboom (Mirrexagon Calm Cover)
   ext: it
+  program: OpenMPT
   comment: 'A calm cover of the Double Rainboom theme, without vocals.
 
 
@@ -218,10 +229,10 @@
 '
   filename: david_larson_-_double_rainboom_(mirrexagon_calm_cover).it
 - tags:
-    Title: Double Rainboom (Mirrexagon Techno Remix)
     Artist: David Larson, Mandopony
-  program: OpenMPT
+    Title: Double Rainboom (Mirrexagon Techno Remix)
   ext: it
+  program: OpenMPT
   comment: 'A remix of the theme of Double Rainboom, an MLP: FiM fan animation made
     by people all over the world (or something like that), that sadly was taken down
     by the lead producer. You can still find it online though.
@@ -233,10 +244,10 @@
 '
   filename: david_larson_-_double_rainboom_(mirrexagon_techno_remix).it
 - tags:
-    Title: Dream
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Dream
   ext: it
+  program: OpenMPT
   comment: '"When you dream, you can do anything."
 
 
@@ -245,18 +256,18 @@
 '
   filename: mirrexagon_-_dream.it
 - tags:
-    Title: Fate of the World
     Artist: Mirrexagon
-  program: SunVox
+    Title: Fate of the World
   ext: sunvox
+  program: SunVox
   comment: A fast paced mostly electronic song. I rank this pretty highly in all the
     songs I've made.
   filename: mirrexagon_-_fate_of_the_world.sunvox
 - tags:
-    Title: Final Sacrifice
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Final Sacrifice
   ext: it
+  program: OpenMPT
   comment: '"The Final Sacrifice is your life."
 
 
@@ -266,19 +277,19 @@
 '
   filename: mirrexagon_-_final_sacrifice.it
 - tags:
-    Title: Fluorescent
     Artist: Mirrexagon
-  program: SunVox
+    Title: Fluorescent
   ext: sunvox
+  program: SunVox
   comment: A full-on electronic song with an awesome (if I do say so myself) bass
     line. I was pretty amazed at myself when I made this, and I still (as of March
     2016) think it's one of the best songs I've ever made.
   filename: mirrexagon_-_fluorescent.sunvox
 - tags:
-    Title: Follow the Sun (Mirrexagon Remix)
     Artist: NightRadio
-  program: SunVox
+    Title: Follow the Sun (Mirrexagon Remix)
   ext: sunvox
+  program: SunVox
   comment: 'Follow the Sun is one of the example songs bundled with SunVox, and it''s
     also written by the creator. It''s my favourite of the example songs.
 
@@ -289,18 +300,18 @@
 '
   filename: nightradio_-_follow_the_sun_(mirrexagon_remix).sunvox
 - tags:
-    Title: Ghostly Touch
     Artist: Mirrexagon
-  program: SunVox
+    Title: Ghostly Touch
   ext: sunvox
+  program: SunVox
   comment: I was playing around with sines, filters and LFOs. Not my greatest work,
     but still alright.
   filename: mirrexagon_-_ghostly_touch.sunvox
 - tags:
-    Title: Glow
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Glow
   ext: it
+  program: OpenMPT
   comment: '"Bask in the glow, and let it absorb you. Let everything wash away."
 
 
@@ -309,10 +320,10 @@
 '
   filename: mirrexagon_-_glow.it
 - tags:
-    Title: Lost
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Lost
   ext: it
+  program: OpenMPT
   comment: '"It is all too easy to become lost in the pure vastness of a mind."
 
 
@@ -321,10 +332,10 @@
 '
   filename: mirrexagon_-_lost.it
 - tags:
-    Title: March
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: March
   ext: it
+  program: OpenMPT
   comment: 'A short, mostly acoustic piece (as acoustic as you can get with samples,
     anyway).
 
@@ -335,18 +346,18 @@
 '
   filename: mirrexagon_-_march.it
 - tags:
-    Title: Marimba Thing
     Artist: Mirrexagon
-  program: SunVox
+    Title: Marimba Thing
   ext: sunvox
+  program: SunVox
   comment: A song made entirely of marimbas, with some nice echo and reverb. Don't
     mind the unoriginal name.
   filename: mirrexagon_-_marimba_thing.sunvox
 - tags:
-    Title: Never-ending Sorrow
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Never-ending Sorrow
   ext: it
+  program: OpenMPT
   comment: '"When there is no hope, sorrow overcomes all."
 
 
@@ -363,10 +374,10 @@
 '
   filename: mirrexagon_-_never-ending_sorrow.it
 - tags:
-    Title: Piano Thing
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Piano Thing
   ext: it
+  program: OpenMPT
   comment: 'A calm song featuring a piano from a song by Awesome.I rather like this
     one. I didn''t have any other ideas for what to call it, so the name isn''t very
     original.
@@ -374,10 +385,10 @@
 '
   filename: mirrexagon_-_pianothing.it
 - tags:
-    Title: Playing
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Playing
   ext: it
+  program: OpenMPT
   comment: '"It''s just a little fun."
 
 
@@ -387,10 +398,10 @@
 '
   filename: mirrexagon_-_playing.it
 - tags:
-    Title: Prepare
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Prepare
   ext: it
+  program: OpenMPT
   comment: '"Are you ready to face the challenge?"
 
 
@@ -401,10 +412,10 @@
 '
   filename: mirrexagon_-_prepare.it
 - tags:
-    Title: Searching
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Searching
   ext: it
+  program: OpenMPT
   comment: '"Even though you may never find it, you still keep searching."
 
 
@@ -419,10 +430,10 @@
 '
   filename: mirrexagon_-_searching.it
 - tags:
-    Title: Showtime
     Artist: Mirrexagon
-  program: SunVox
+    Title: Showtime
   ext: sunvox
+  program: SunVox
   comment: 'Fast-paced endlessly-looping mostly-electronic song, with the plucky instrument
     I love so much.
 
@@ -433,10 +444,10 @@
 '
   filename: mirrexagon_-_showtime.sunvox
 - tags:
-    Title: Simplistic
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Simplistic
   ext: it
+  program: OpenMPT
   comment: '"It''s the simple things that count."
 
 
@@ -447,10 +458,10 @@
 '
   filename: mirrexagon_-_simplistic.it
 - tags:
-    Title: Song of Storms (Mirrexagon 16-bit Cover)
     Artist: Koji Kondo
-  program: OpenMPT
+    Title: Song of Storms (Mirrexagon 16-bit Cover)
   ext: it
+  program: OpenMPT
   comment: '"Here I lie, in this cave,
 
     watching all the storms go by.
@@ -485,18 +496,18 @@
 '
   filename: koji_kondo_-_song_of_storms_(mirrexagon_16-bit_cover).it
 - tags:
-    Title: The Elder Scrolls
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: The Elder Scrolls
   ext: it
+  program: OpenMPT
   comment: A remix of probably the most famous part of the theme from The Elder Scrolls.
     I was playing Skyrim around the time I made this.
   filename: mirrexagon_-_tes.it
 - tags:
-    Title: The End
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: The End
   ext: it
+  program: OpenMPT
   comment: '"Once you reach the end, all that is left is...nothing. It''s over. It''s
     finished. There is nothing left. And there is nothing you can do about it."
 
@@ -504,10 +515,10 @@
     I don''t remember what was going through my head when I wrote that quote...'
   filename: mirrexagon_-_the_end.it
 - tags:
-    Title: Twilight
     Artist: Mirrexagon
-  program: OpenMPT
+    Title: Twilight
   ext: it
+  program: OpenMPT
   comment: '"Embrace the twilight, live in it. It won\''t last."
 
 
@@ -515,17 +526,17 @@
     has.'
   filename: mirrexagon_-_twilight.it
 - tags:
-    Title: Weather Factory
     Artist: Mirrexagon
-  program: SunVox
+    Title: Weather Factory
   ext: sunvox
+  program: SunVox
   comment: This one's a chiptune. It's one of my first SunVox songs.
   filename: mirrexagon_-_weather_factory.sunvox
 - tags:
-    Title: Winter Wrap Up (Mirrexagon Cover)
     Artist: Daniel Ingram
-  program: OpenMPT
+    Title: Winter Wrap Up (Mirrexagon Cover)
   ext: it
+  program: OpenMPT
   comment: 'Yes, I watched MLP: FiM, enjoyed it, and became obsessed with it for a
     while.
 
@@ -536,10 +547,10 @@
 '
   filename: daniel_ingram_-_winter_wrap_up_(mirrexagon_cover).it
 - tags:
-    Title: Your Destiny Awaits
     Artist: Mirrexagon
-  program: SunVox
+    Title: Your Destiny Awaits
   ext: sunvox
+  program: SunVox
   comment: My second remix of "Destiny", this time done in SunVox! I have a sort of
     inside joke with myself that I'll just keep remixing Destiny over and over.
   filename: mirrexagon_-_your_destiny_awaits.sunvox
