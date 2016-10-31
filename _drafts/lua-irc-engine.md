@@ -3,7 +3,7 @@ layout: post
 title: "Lua IRC Engine"
 ---
 
-I used to maintain a Lua module named Lua IRC Engine, also known as `irc-engine`, or IRCe for short. I describe it as "A Lua IRC module that tries to be minimal and extensible." ([GitHub repo](https://github.com/mirrexagon/lua-irc-engine), [LuaRocks](https://luarocks.org/modules/mirrexagon/irc-engine))
+I maintain a Lua module named Lua IRC Engine, also known as `irc-engine`, or IRCe for short. I describe it as "A Lua IRC module that tries to be minimal and extensible." ([GitHub repo](https://github.com/mirrexagon/lua-irc-engine), [LuaRocks](https://luarocks.org/modules/mirrexagon/irc-engine))
 
 It's my first ever versioned piece of software, and the first that is actually used by more than three people. In this post, I'll talk about its history, some of the things I did badly, and things I've learnt from it (mainly about versioning).
 
@@ -61,4 +61,4 @@ The big issue now is that I don't actually use IRC Engine myself right now, and 
 
 I kind of wish I could start again with what I've learned, especially making good use of major version zero to really make sure I'm happy with everything (and not break SemVer, as I've done a few times).
 
-I might come back to this someday, but for now, I don't work on it. If you want to play with it and/or maybe work on it and release your own version, feel free!
+I don't work on it much anymore. I'll probably keep working on it when I feel like it, but that may not be very often. If you want to take it, work on it and release your own version, feel free!
