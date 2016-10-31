@@ -21,7 +21,7 @@ I was pretty proud of it. It's minimal, flexible and very extensible, making it 
 
 
 # Issues and lessons learnt
-The most obvious thing you might notice if you went to use the module, is the version number. As of writing, it is `v5.0.0`. Seems a bit high, doesn't it?
+The most obvious thing you might notice if you went to use the module, is the version number. As of writing, it is `v5.1.0`. Seems a bit high, doesn't it?
 
 I tried to follow [Semantic Versioning](http://semver.org/) with this project. The problem was, I released `v1.0.0` far too early. I though I was happy with the API; the method names and what they did was good. However, I later found that I was not happy with some details of the behaviour of the module, one in particular.
 
