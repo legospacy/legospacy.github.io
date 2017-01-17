@@ -2,7 +2,6 @@
 
 
 --- Require ---
-local lfs = require("lfs")
 local yaml = require("yaml")
 local shell = require("shell")
 --- ==== ---

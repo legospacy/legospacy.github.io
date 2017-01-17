@@ -3,7 +3,7 @@ MUSIC_SRC_DIR =  $(HOME)/sync/work/music/music
 OPENMPT_SRC_DIR = $(realpath $(MUSIC_SRC_DIR)/openmpt/publish)
 SUNVOX_SRC_DIR = $(realpath $(MUSIC_SRC_DIR)/sunvox/publish)
 
-WORK_DIR ?= $(HOME)/Dropbox/Public/music
+WORK_DIR ?= $(HOME)/local/music
 
 DEPLOY_METADATA_DIR ?= ../_data
 
@@ -55,8 +55,8 @@ metadata-file: $(METADATA_FILE)
 
 deploy: deploy-music deploy-metadata-file
 
-deploy-music: $(SOURCES) $(FLACS) $(OGGS)
-	@#rsync -av $(foreach file,$(SOURCES) $(FLACS) $(OGGS),"$(file)") $(DEPLOY_MUSIC_DIR)
+deploy-music: $(METAFILES) metadata-file sources flacs oggs
+	aws s3 sync --dryrun --delete --exclude "*.wav" $(WORK_DIR) s3://mirrexagon-sitecontent/music
 
 deploy-metadata-file: $(METADATA_FILE)
 	cp $(METADATA_FILE) $(DEPLOY_METADATA_DIR)

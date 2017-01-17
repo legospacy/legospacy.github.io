@@ -4,8 +4,6 @@ with import <nixpkgs> {}; stdenv.mkDerivation {
   buildinputs = [
     stdenv
 
-    lua
-
     svrender
     libopenmpt
 
@@ -15,5 +13,9 @@ with import <nixpkgs> {}; stdenv.mkDerivation {
     kid3
 
     rsync
-  ];
+  ] ++ (with luaPackages; [
+    lua
+    luafilesystem
+    yaml
+  ]);
 }

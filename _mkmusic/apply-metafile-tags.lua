@@ -2,7 +2,6 @@
 
 
 --- Require ---
-local lfs = require("lfs")
 local shell = require("shell")
 shell.PRINT = true
 --- ==== ---
