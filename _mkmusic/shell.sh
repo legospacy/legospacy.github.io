@@ -5,6 +5,7 @@ nix-shell -p stdenv \
 	flac ffmpeg \
 	kid3 \
 	rsync awscli \
-	luaPackages.lua \
-	luaPackages.lub \
-	luaPackages.luafilesystem luaPackages.yaml
+	nix-luarocks.luaPackages.lua \
+	nix-luarocks.luaPackages.lub \
+	nix-luarocks.luaPackages.luafilesystem \
+	nix-luarocks.luaPackages.yaml
