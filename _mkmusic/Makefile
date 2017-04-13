@@ -56,7 +56,7 @@ metadata-file: $(METADATA_FILE)
 deploy: deploy-music deploy-metadata-file
 
 deploy-music: $(METAFILES) metadata-file sources flacs oggs
-	aws s3 sync --dryrun --delete --exclude "*.wav" $(WORK_DIR) s3://mirrexagon-sitecontent/music
+	aws s3 sync --delete --size-only --exclude "*.wav" $(WORK_DIR) s3://mirrexagon-sitecontent/music
 
 deploy-metadata-file: $(METADATA_FILE)
 	cp $(METADATA_FILE) $(DEPLOY_METADATA_DIR)
