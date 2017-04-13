@@ -3,7 +3,7 @@ MUSIC_SRC_DIR =  $(HOME)/sync/work/music/music
 OPENMPT_SRC_DIR = $(realpath $(MUSIC_SRC_DIR)/openmpt/publish)
 SUNVOX_SRC_DIR = $(realpath $(MUSIC_SRC_DIR)/sunvox/publish)
 
-WORK_DIR ?= $(HOME)/local/music
+WORK_DIR ?= $(HOME)/local/music/render
 
 DEPLOY_METADATA_DIR ?= ../_data
 
