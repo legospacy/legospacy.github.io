@@ -35,11 +35,13 @@ METADATA_FILE = $(WORK_DIR)/music.yaml
 
 
 # --- Targets --- #
-.PHONY: all sources flacs oggs metadata-file deploy deploy-music deploy-metadata-file clean
+.PHONY: all render sources flacs oggs metadata-file deploy deploy-music deploy-metadata-file clean
 
 # ---
 
 all: deploy
+
+render: sources flacs oggs
 
 # ---
 
@@ -55,7 +57,7 @@ metadata-file: $(METADATA_FILE)
 
 deploy: deploy-music deploy-metadata-file
 
-deploy-music: $(METAFILES) metadata-file sources flacs oggs
+deploy-music: $(METAFILES) metadata-file render
 	aws s3 sync --delete --size-only --exclude "*.wav" $(WORK_DIR) s3://mirrexagon-sitecontent/music
 
 deploy-metadata-file: $(METADATA_FILE)
