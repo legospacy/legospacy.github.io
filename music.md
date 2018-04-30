@@ -5,7 +5,7 @@ permalink: /music/
 dl_url: https://s3-ap-southeast-2.amazonaws.com/mirrexagon-sitecontent/music
 ---
 
-This is a list of music I've made. My music program of choice is currently [SunVox](http://warmplace.ru/soft/sunvox/), although I used to use [OpenMPT](https://openmpt.org/) (and occasionally still do).
+This is a list of music I've made. My music program of choice is currently [Renoise](http://renoise.com/), although I used to use [SunVox](http://warmplace.ru/soft/sunvox/) and [OpenMPT](https://openmpt.org/) (and occasionally still do).
 
 Project and audio files are hosted on AWS S3.
 
