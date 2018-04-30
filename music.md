@@ -17,7 +17,7 @@ Keep in mind that I may have future plans for some of this music, outside of it 
 {% for song in site.data.music %}
 ---
 
-#### **<a name="{{ song.filename}}" href="#{{ song.filename }}">{{ song.artist }} - {{ song.title }}</a>**
+#### **<a name="{{ song.filename }}" href="#{{ song.filename }}">{{ song.artist }} - {{ song.title }}</a>**
 <audio controls preload="none">
 	<source src="{{ page.dl_url }}/vorbis/{{ song.filename }}.ogg" type="audio/ogg">
 </audio>
@@ -26,8 +26,8 @@ Keep in mind that I may have future plans for some of this music, outside of it 
 
 {{ song.comment | newline_to_br }}
 
-*Made with {{ song.program }} <br />
-[Project file]({{ page.dl_url }}/{{ song.filename }}.{{ song.project_file_ext }}) <br />
-[FLAC]({{ page.dl_url }}/{{ song.filename }}.flac) <br />
+*Made with {{ song.program }}* <br />
+{% if song.project_file_ext != '' %} *[Project file]({{ page.dl_url }}/{{ song.filename }}.{{ song.project_file_ext }})* <br /> {% endif %}
+*[FLAC]({{ page.dl_url }}/{{ song.filename }}.flac) <br />
 [Ogg Vorbis]({{ page.dl_url }}/vorbis/{{ song.filename }}.ogg) <br />*
 {% endfor %}
