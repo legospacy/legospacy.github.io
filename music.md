@@ -15,17 +15,17 @@ All the music on this page, unless stated otherwise, is released into the public
 {% for song in site.data.music %}
 ---
 
-#### **<a name="{{ song.filename }}" href="#{{ song.filename }}">{{ song.tags.Artist }} - {{ song.tags.Title }}</a>**
+#### **<a name="{{ song.filename}}" href="#{{ song.filename }}">{{ song.artist }} - {{ song.title }}</a>**
 <audio controls preload="none">
-	<source src="{{ page.dl_url }}/{{ song.filename }}.ogg" type="audio/ogg">
+	<source src="{{ page.dl_url }}/vorbis/{{ song.filename }}.ogg" type="audio/ogg">
 </audio>
 
-*Finished: {{ song.tags.Date | default: "before early 2015" }}*
+*Finished/Released: {{ song.date | default: "before early 2015" }}*
 
 {{ song.comment | newline_to_br }}
 
 *Made with {{ song.program }} <br />
-[Project file]({{ page.dl_url }}/{{ song.filename }}) <br />
+[Project file]({{ page.dl_url }}/{{ song.filename }}.{{ song.project_file_ext }}) <br />
 [FLAC]({{ page.dl_url }}/{{ song.filename }}.flac) <br />
-[Ogg Vorbis]({{ page.dl_url }}/{{ song.filename }}.ogg) <br />*
+[Ogg Vorbis]({{ page.dl_url }}/vorbis/{{ song.filename }}.ogg) <br />*
 {% endfor %}
