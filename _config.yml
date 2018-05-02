@@ -4,7 +4,7 @@ email: mirrexagon@mirrexagon.com
 description: >
     Mirrexagon's personal website
 baseurl: ""
-url: "http://www.mirrexagon.com"
+url: "http://mirrexagon.com"
 github_username: mirrexagon
 
 # Build settings
