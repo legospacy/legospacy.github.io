@@ -3,20 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  <h1 class="page-heading">Blog</h1>
+    <p><em>My music has moved to <a href="https://lmirx.net">lmirx.net</a>.</em></p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h1 class="page-heading">Blog</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <ul class="post-list">
+        {% for post in site.posts %}
+            <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
 
